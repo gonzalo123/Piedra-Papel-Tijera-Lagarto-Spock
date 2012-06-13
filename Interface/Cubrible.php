@@ -1,0 +1,2 @@
+<?php
+interface Cubrible{};
