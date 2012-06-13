@@ -1,13 +1,13 @@
 <?php
 class Lagarto extends Elemento implements Aplastable, Decapitable
 {
-    public function comer(Elemento $Elemento)
+    public function comer(Elemento $elemento)
     {
-        return $Elemento instanceof Comible;
+        return $elemento instanceof Comible;
     }
 
-    public function envenenar(Elemento $Elemento)
+    public function envenenar(Elemento $elemento)
     {
-        return $Elemento instanceof Envenenable;
+        return $elemento instanceof Envenenable;
     }
 }

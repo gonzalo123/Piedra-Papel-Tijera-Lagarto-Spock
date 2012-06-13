@@ -1,13 +1,13 @@
 <?php
 class Tijeras extends Elemento implements Destrozable, Aplastable
 {
-    public function cortar(Elemento $Elemento)
+    public function cortar(Elemento $elemento)
     {
-        return $Elemento instanceof Cortable;
+        return $elemento instanceof Cortable;
     }
 
-    public function decapitar(Elemento $Elemento)
+    public function decapitar(Elemento $elemento)
     {
-        return $Elemento instanceof Decapitable;
+        return $elemento instanceof Decapitable;
     }
 }

@@ -1,13 +1,13 @@
 <?php
 class Spock extends Elemento implements Refutable, Envenenable
 {
-    public function vaporizar(Elemento $Elemento)
+    public function vaporizar(Elemento $elemento)
     {
-        return $Elemento instanceof Vaporizable;
+        return $elemento instanceof Vaporizable;
     }
 
-    public function destrozar(Elemento $Elemento)
+    public function destrozar(Elemento $elemento)
     {
-        return $Elemento instanceof Destrozable;
+        return $elemento instanceof Destrozable;
     }
 }

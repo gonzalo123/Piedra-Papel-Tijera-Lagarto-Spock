@@ -1,13 +1,13 @@
 <?php
 class Papel extends Elemento implements Cortable, Comible
 {
-    public function cubrir(Elemento $Elemento)
+    public function cubrir(Elemento $elemento)
     {
-        return $Elemento instanceof Cubrible;
+        return $elemento instanceof Cubrible;
     }
 
-    public function refutar(Elemento $Elemento)
+    public function refutar(Elemento $elemento)
     {
-        return $Elemento instanceof Refutable;
+        return $elemento instanceof Refutable;
     }
 }

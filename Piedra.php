@@ -1,8 +1,8 @@
 <?php
 class Piedra extends Elemento implements Cubrible, Vaporizable
 {
-    public function aplastar(Elemento $Elemento)
+    public function aplastar(Elemento $elemento)
     {
-        return $Elemento instanceof Aplastable;
+        return $elemento instanceof Aplastable;
     }
 }

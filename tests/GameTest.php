@@ -1,5 +1,5 @@
 <?php
-include('../loader.php');
+include('loader.php');
 
 class GameTest extends PHPUnit_Framework_TestCase
 {
